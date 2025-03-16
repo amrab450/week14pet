@@ -18,5 +18,15 @@ public class Customer {
 
     @ManyToMany(mappedBy = "customers", cascade = CascadeType.PERSIST)
     private Set<PetStore> petStores;
+
+	public void setName(String firstName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setContactInfo(Object contactInfo) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 

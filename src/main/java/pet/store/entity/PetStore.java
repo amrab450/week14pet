@@ -64,4 +64,9 @@ public class PetStore {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	public String getAddress() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
